@@ -1,0 +1,3 @@
+C:/Users/ugend/Desktop/COT/build/CMakeFiles/COTServer.dir
+C:/Users/ugend/Desktop/COT/build/CMakeFiles/edit_cache.dir
+C:/Users/ugend/Desktop/COT/build/CMakeFiles/rebuild_cache.dir

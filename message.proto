@@ -1,0 +1,27 @@
+syntax = "proto2";
+
+import "nanopb.proto";
+
+message ClientCOTRequest {
+  repeated bytes Rs = 1 [
+    (nanopb).type = FT_POINTER,
+    (nanopb).max_count = 32,
+    (nanopb).max_size = 64
+  ];
+
+  required bytes y = 2 [
+    (nanopb).max_size = 32
+  ];  // 32-byte scalar input
+}
+
+message ServerCOTResponse {
+  repeated bytes c0s = 1 [
+    (nanopb).max_count = 32,
+    (nanopb).max_size = 64
+  ];
+
+  repeated bytes c1s = 2 [
+    (nanopb).max_count = 32,
+    (nanopb).max_size = 64
+  ];
+}
