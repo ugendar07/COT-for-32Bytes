@@ -1,3 +1,0 @@
-# Correleated Oblivious Tranfer
-
-
