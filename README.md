@@ -20,17 +20,11 @@ Where:
 
 │ └── CMake files and server.ex file
 
-│
-
 ├── client/
 
 │ └── client.ts # Node.js client implementation
 
-│
-
 ├── external/trezor_crypto # trezor_crypto library (submodules and .h files)
-
-│
 
 ├── include/
 
@@ -38,16 +32,9 @@ Where:
 
 │ └── message.pb.h/.c # Auto-generated via NanoPB
 
-│
-
-
 ├── nanopb/ # NanoPB library (submodules and downloaded)
 
-│
-
 ├── node_modules/ # Node Modules (protobufjs and lock.json)
-
-│
 
 ├── src/
 
@@ -59,8 +46,6 @@ Where:
 
 │ └── message.pb.h/.c # Auto-generated via NanoPB
 
-│
-
 ├── nanopb/ # NanoPB library (submodule or downloaded)
 
 │
@@ -68,7 +53,6 @@ Where:
 
 │
 └── message.proto
-
 
 │
 └── out_put.txt
